@@ -9,6 +9,7 @@ import (
 	"github.com/saviobarr/golang-microservices/mvc/utils"
 )
 
+//fetch user
 func GetUser(resp http.ResponseWriter, req *http.Request) {
 	userId, err := strconv.ParseInt(req.URL.Query().Get("user_id"), 10, 64)
 
