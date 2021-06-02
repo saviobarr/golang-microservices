@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/stretchr/testfy/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestGetUserNoUserFound(t *testing.T) {
@@ -24,6 +24,7 @@ func TestGetUserNoUserFound(t *testing.T) {
 
 	}
 
-	assert.Equal()
+	assert.Nil(t, user, "we were not expecting a user with id 0")
+	assert.NotNil(t, err, "Expecting an error")
 
 }
