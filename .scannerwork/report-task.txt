@@ -1,0 +1,6 @@
+projectKey=go-study
+serverUrl=http://192.168.245.128:9000
+serverVersion=10.3.0.82913
+dashboardUrl=http://192.168.245.128:9000/dashboard?id=go-study
+ceTaskId=AYvc54G3oKNNiTwZa_uu
+ceTaskUrl=http://192.168.245.128:9000/api/ce/task?id=AYvc54G3oKNNiTwZa_uu

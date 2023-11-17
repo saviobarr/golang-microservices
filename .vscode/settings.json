@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "http-192-168-245-128-9000",
+        "projectKey": "go-study"
+    }
+}
